@@ -43,7 +43,7 @@ namespace MyServer
 
             Bus.Reply(response); //Try experimenting with sending multiple responses
 
-            //throw new Exception("foo bar");
+            throw new Exception("foo bar");
         }
 
         public static ILog Logger = LogManager.GetLogger("MyServer");
