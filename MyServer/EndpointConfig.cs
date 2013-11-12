@@ -12,7 +12,7 @@ namespace MyServer
 
             Configure.With()
                .DefaultBuilder()
-               .InMemoryFaultManagement()
+               //.InMemoryFaultManagement()
                .InMemorySubscriptionStorage()
                .UseNHibernateSagaPersister()
                .UseInMemoryTimeoutPersister();
